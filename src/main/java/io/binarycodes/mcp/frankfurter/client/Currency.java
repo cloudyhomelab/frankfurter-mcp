@@ -1,4 +1,4 @@
-package dev.frankfurter.mcp.client;
+package io.binarycodes.mcp.frankfurter.client;
 
 import java.time.LocalDate;
 import java.util.List;
