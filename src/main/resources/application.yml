@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: frankfurter-mcp
+  http:
+    clients:
+      connect-timeout: 5s
+      read-timeout: 15s
+  ai:
+    mcp:
+      server:
+        name: frankfurter
+        version: 0.1.0
+        type: SYNC
+        protocol: STREAMABLE
+        instructions: >-
+          Exchange-rate tools backed by the Frankfurter API (frankfurter.dev). Rates are daily mid-market
+          reference rates blended from central banks; they are not live trading prices. Currency codes are
+          ISO 4217 (EUR, USD, ...). Dates are YYYY-MM-DD. For official figures, pass a provider such as ECB.
+        capabilities:
+          prompt: false
+          resource: false
+          completion: false
+
+server:
+  port: 8080
+
+frankfurter:
+  base-url: https://api.frankfurter.dev/v2
+
+---
+# Run with --spring.profiles.active=stdio for clients that launch the server as a subprocess.
+spring:
+  config:
+    activate:
+      on-profile: stdio
+  main:
+    web-application-type: none
+    banner-mode: off
+  ai:
+    mcp:
+      server:
+        stdio: true
