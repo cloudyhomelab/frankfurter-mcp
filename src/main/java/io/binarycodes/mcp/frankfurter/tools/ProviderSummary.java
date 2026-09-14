@@ -1,6 +1,6 @@
-package dev.frankfurter.mcp.tools;
+package io.binarycodes.mcp.frankfurter.tools;
 
-import dev.frankfurter.mcp.client.Provider;
+import io.binarycodes.mcp.frankfurter.client.Provider;
 
 public record ProviderSummary(String key, String name, String countryCode, String rateType, String pivotCurrency,
         String publishCadence, int currencyCount) {

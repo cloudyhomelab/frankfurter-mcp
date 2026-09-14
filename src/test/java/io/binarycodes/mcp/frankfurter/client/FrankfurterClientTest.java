@@ -1,4 +1,4 @@
-package dev.frankfurter.mcp.client;
+package io.binarycodes.mcp.frankfurter.client;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

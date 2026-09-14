@@ -1,13 +1,13 @@
-package dev.frankfurter.mcp;
+package io.binarycodes.mcp.frankfurter;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
-import dev.frankfurter.mcp.client.FrankfurterClient;
-import dev.frankfurter.mcp.client.FrankfurterException;
-import dev.frankfurter.mcp.client.Rate;
+import io.binarycodes.mcp.frankfurter.client.FrankfurterClient;
+import io.binarycodes.mcp.frankfurter.client.FrankfurterException;
+import io.binarycodes.mcp.frankfurter.client.Rate;
 import io.modelcontextprotocol.client.McpClient;
 import io.modelcontextprotocol.client.McpSyncClient;
 import io.modelcontextprotocol.client.transport.HttpClientStreamableHttpTransport;

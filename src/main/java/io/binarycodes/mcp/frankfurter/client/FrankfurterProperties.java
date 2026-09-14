@@ -1,4 +1,4 @@
-package dev.frankfurter.mcp.client;
+package io.binarycodes.mcp.frankfurter.client;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.bind.DefaultValue;

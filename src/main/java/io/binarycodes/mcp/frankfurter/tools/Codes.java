@@ -1,4 +1,4 @@
-package dev.frankfurter.mcp.tools;
+package io.binarycodes.mcp.frankfurter.tools;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;

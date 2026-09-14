@@ -1,4 +1,4 @@
-package dev.frankfurter.mcp.client;
+package io.binarycodes.mcp.frankfurter.client;
 
 /** Error reported by the Frankfurter API (e.g. 422 "invalid currency: XXX"). */
 public class FrankfurterException extends RuntimeException {

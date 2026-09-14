@@ -1,12 +1,12 @@
-package dev.frankfurter.mcp.tools;
+package io.binarycodes.mcp.frankfurter.tools;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 
-import dev.frankfurter.mcp.client.FrankfurterClient;
-import dev.frankfurter.mcp.client.Rate;
-import dev.frankfurter.mcp.client.RatesQuery;
+import io.binarycodes.mcp.frankfurter.client.FrankfurterClient;
+import io.binarycodes.mcp.frankfurter.client.Rate;
+import io.binarycodes.mcp.frankfurter.client.RatesQuery;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

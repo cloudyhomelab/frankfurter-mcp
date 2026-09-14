@@ -1,4 +1,4 @@
-package dev.frankfurter.mcp;
+package io.binarycodes.mcp.frankfurter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
