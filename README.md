@@ -119,7 +119,7 @@ git config core.hooksPath .githooks
 ## Layout
 
 ```
-src/main/java/dev/frankfurter/mcp/
+src/main/java/io/binarycodes/mcp/frankfurter/
   client/   typed RestClient wrapper over the Frankfurter v2 API
   tools/    @McpTool methods exposed to agents
 ```

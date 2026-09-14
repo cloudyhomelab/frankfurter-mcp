@@ -11,7 +11,7 @@
     <relativePath/>
   </parent>
 
-  <groupId>dev.frankfurter</groupId>
+  <groupId>io.binarycodes.mcp</groupId>
   <artifactId>frankfurter-mcp</artifactId>
   <version>0.1.0-SNAPSHOT</version>
   <name>frankfurter-mcp</name>
